@@ -22,6 +22,9 @@ const createPost = async (req, res) => {
         // Return a success response
         res.status(201).json({ message: "Post successfully created." });
     } catch (error) {
+        if (error.errorResponse.keyPattern.slug) {
+            return res.status(400).json({ message: "Slug already exists. Please choose a different title" });
+        }
         res.status(500).json(error);
     }
 };
