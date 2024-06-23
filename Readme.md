@@ -6,7 +6,7 @@ This project is a full-stack application built using the MERN stack (MongoDB, Ex
 ## Table of Contents
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Setting Up Less Secure Email Password for Nodemailer](#setting-up-less-secure-email-passwored-for-nodemailer)
+- [Setting Up Less Secure Email Password for Nodemailer](#setting-up-less-secure-email-password-for-nodemailer)
 - [Running the Project](#running-the-project)
 - [Technologies Used](#technologies-used)
 
