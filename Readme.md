@@ -74,7 +74,7 @@ cd client && npm run dev
 
 Open your browser and navigate to http://localhost:5173.
 
-## Tech used
+## Technologies Used
 
 ### Fronend:
 
