@@ -12,7 +12,7 @@ const MyBlog = () => {
   return (
     <>
       <Header />
-      <div className="mx-auto max-w-4xl space-y-5 px-2 lg:px-0">
+      <div className="mx-auto max-w-4xl w-full space-y-5 px-2 lg:px-0">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">My Blog post</h1>
           <span className="text-sm text-gray-700">
